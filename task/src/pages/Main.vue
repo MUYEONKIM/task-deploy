@@ -10,7 +10,7 @@
       <p
         class="w-[520px] inline-block mt-[3vh] bg-gradient-to-r from-[#9FBAFD] to-[#4E81FF] text-[56px] leading-[80px] font-PretendBold text-transparent bg-clip-text"
       >
-        가장 빠르고 안정적인 문자 서비스 SENDGO
+        가장 빠르고 안정적인 문자 서비스
       </p>
       <div class="mt-[6.31vh]">
         <button
