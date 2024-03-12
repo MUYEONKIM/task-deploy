@@ -1,7 +1,9 @@
 <template>
-  <hr class="border-[1px] border-[#707070] relative z-20" />
+  <hr class="border-[1px] w-full border-[#707070] relative z-20" />
   <div class="h-[999px] w-full bg-black font-PretendMedium relative">
-    <div class="h-full text-white ml-[13.02vw] flex items-start flex-col">
+    <div
+      class="h-full text-white min-[1774px]:ml-[13.02vw] flex min-[1774px]:items-start flex-col items-center"
+    >
       <p class="mt-[303px] text-[24px] text-[#FCFCFC]">
         인터넷 문자 메시지 전송의 모든 것
       </p>
@@ -25,34 +27,36 @@
         </button>
       </div>
     </div>
-    <div class="absolute top-[140px] right-[666px]">
-      <div class="bg-[#6250FF] rounded-[24px]">
-        <img src="../assets/mainPageImage/main1.png" />
+    <div class="hidden min-[1774px]:block">
+      <div class="absolute top-[140px] right-[34.7vw]">
+        <div class="bg-[#6250FF] rounded-[24px]">
+          <img src="../assets/mainPageImage/main1.png" />
+        </div>
+        <div class="bg-[#37383E] rounded-[24px] mt-[24px]">
+          <img src="../assets/mainPageImage/main2.png" />
+        </div>
       </div>
-      <div class="bg-[#37383E] rounded-[24px] mt-[24px]">
-        <img src="../assets/mainPageImage/main2.png" />
+      <div class="absolute top-[-48px] right-[19.8vw]">
+        <div class="bg-[#37383E] rounded-[24px]">
+          <img src="../assets/mainPageImage/main3.png" />
+        </div>
+        <div class="bg-[#6250FF] rounded-[24px] mt-[24px]">
+          <img src="../assets/mainPageImage/main4.png" />
+        </div>
       </div>
+      <div class="absolute top-[-302px] right-[4.9vw]">
+        <div class="bg-[#6250FF] rounded-[24px]">
+          <img src="../assets/mainPageImage/main5.png" />
+        </div>
+        <div
+          class="bg-[#37383E] rounded-[24px] mt-[24px] w-[254px] h-[609px]"
+        ></div>
+      </div>
+      <img
+        src="../assets/mainPageImage/main6.png"
+        class="absolute top-[248px] right-1.5"
+      />
     </div>
-    <div class="absolute top-[-48px] right-[380px]">
-      <div class="bg-[#37383E] rounded-[24px]">
-        <img src="../assets/mainPageImage/main3.png" />
-      </div>
-      <div class="bg-[#6250FF] rounded-[24px] mt-[24px]">
-        <img src="../assets/mainPageImage/main4.png" />
-      </div>
-    </div>
-    <div class="absolute top-[-302px] right-[94px]">
-      <div class="bg-[#6250FF] rounded-[24px]">
-        <img src="../assets/mainPageImage/main5.png" />
-      </div>
-      <div
-        class="bg-[#37383E] rounded-[24px] mt-[24px] w-[254px] h-[609px]"
-      ></div>
-    </div>
-    <img
-      src="../assets/mainPageImage/main6.png"
-      class="absolute top-[248px] right-1.5"
-    />
   </div>
   <div class="w-full flex flex-col items-center">
     <div class="w-[73.96vw] flex flex-col items-center">
@@ -65,7 +69,9 @@
       <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
         모든 종류의 인터넷 SMS를 편리하게.
       </p>
-      <div class="w-full min-w-[1420px] mt-[96px] flex justify-between">
+      <div
+        class="w-full min-w-[1420px] mt-[96px] flex flex-col h-[1100px] items-center justify-between min-[1500px]:h-full min-[1500px]:justify-between min-[1500px]:flex-row"
+      >
         <div
           class="w-[23.12vw] min-w-[444px] h-[349px] flex flex-col items-center justify-center text-center bg-[#F0F0FA] rounded-[28px]"
         >
@@ -128,9 +134,11 @@
         <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
           고객님들의 입장에서 고민하였습니다.
         </p>
-        <div class="w-full min-w-[1430px] mt-[96px] flex justify-between">
+        <div
+          class="w-full mt-[96px] min-[1500px]:h-full h-[1242px] flex flex-col min-[1500px]:flex-row items-center min-[1500px]:justify-between"
+        >
           <div
-            class="w-[32.6vw] min-w-[626px] h-[597px] flex flex-col justify-between bg-[#F8F9FA] rounded-[25px] pl-[2.81vw] pt-[72px]"
+            class="min-[1500px]:w-[32.6vw] w-[44.53vw] h-[597px] flex flex-col justify-between bg-[#F8F9FA] rounded-[25px] pl-[2.81vw] pt-[72px] min-[1500px]:mr-[5vw]"
           >
             <div>
               <p class="font-PretendBold text-[34px]">
@@ -145,7 +153,7 @@
             <img src="../assets/mainPageImage/main7.png" />
           </div>
           <div
-            class="w-[39.06vw] min-w-[750px] h-[597px] flex flex-col justify-between bg-[#E9EBFD] rounded-[25px] pl-[2.81vw] pt-[72px]"
+            class="w-[44.54vw] min-[1500px]:w-[39.06vw] h-[597px] flex flex-col justify-between bg-[#E9EBFD] rounded-[25px] pl-[2.81vw] pt-[72px] mt-[3vh] min-[1500px]:0"
           >
             <div>
               <p
@@ -158,16 +166,15 @@
               </p>
             </div>
             <div>
-              <img
-                src="../assets/mainPageImage/main8.png"
-                class="object-none"
-              />
+              <img src="../assets/mainPageImage/main8.png" />
             </div>
           </div>
         </div>
-        <div class="w-full min-w-[1430px] mt-[40px] flex justify-between">
+        <div
+          class="w-full mt-[40px] flex justify-between min-[1500px]:h-full h-[1242px] flex-col min-[1500px]:flex-row items-center"
+        >
           <div
-            class="w-[44.53vw] min-w-[855px] h-[720px] flex flex-col justify-between bg-[#DBE5FF] rounded-[25px] pl-[2.81vw] pt-[72px]"
+            class="w-[44.54vw] min-[1500px]:w-[44.53vw] h-[720px] flex flex-col justify-between bg-[#DBE5FF] rounded-[25px] pl-[2.81vw] pt-[72px] min-[1500px]:mr-[5vw]"
           >
             <div>
               <p class="font-PretendBold text-[34px] text-[#375984]">
@@ -183,7 +190,7 @@
             <img src="../assets/mainPageImage/main9.png" />
           </div>
           <div
-            class="w-[27.08vw] min-w-[520px] h-[720px] flex flex-col justify-between bg-[#FAFAEE] rounded-[25px] pl-[2.81vw] pt-[72px]"
+            class="mt-[3vh] min-[1500px]:0 w-[44.54vw] min-[1500px]:w-[27.08vw] h-[720px] flex flex-col justify-between bg-[#FAFAEE] rounded-[25px] pl-[2.81vw] pt-[72px]"
           >
             <div>
               <p class="font-PretendBold text-[34px] text-[#6C3111]">
@@ -197,10 +204,7 @@
               </p>
             </div>
             <div>
-              <img
-                src="../assets/mainPageImage/main10.png"
-                class="object-none"
-              />
+              <img src="../assets/mainPageImage/main10.png" />
             </div>
           </div>
         </div>
@@ -208,7 +212,7 @@
     </div>
     <div>
       <div class="w-[73.96vw] flex flex-col items-center">
-        <img src="../assets/icon/icon6.png" class="mt-[354px] object-none" />
+        <img src="../assets/icon/icon6.png" class="mt-[354px]" />
         <p
           class="w-[620px] inline-block font-PretendBold text-[56px] leading-[80px] mt-[50px] text-center"
         >
@@ -218,11 +222,11 @@
         <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
           고객님들의 간편함을 고민하였습니다
         </p>
-        <div class="w-full min-w-[1420px] mt-[96px] flex justify-between">
+        <div class="w-full mt-[96px] flex justify-between">
           <div
-            class="w-[35.83vw] min-w-[688px] h-[597px] flex flex-col bg-[#DCEFF4] rounded-[25px] pt-[72px]"
+            class="w-[35.83vw] h-[597px] flex flex-col bg-[#DCEFF4] rounded-[25px] pt-[72px]"
           >
-            <div class="pl-[2.81vw]">
+            <div class="w-full pl-[2.81vw]">
               <p class="font-PretendBold text-[34px] text-[#0F1F4B]">
                 일반 SMS는 기본, 카카오톡까지
               </p>
@@ -235,12 +239,12 @@
             <div class="mt-[45px] w-full flex flex-col items-center">
               <img
                 src="../assets/mainPageImage/main11.png"
-                class="object-none"
+                class="w-[70%] min-[1500px]:object-none"
               />
             </div>
           </div>
           <div
-            class="w-[35.83vw] min-w-[688px] h-[597px] flex flex-col bg-[#FBFBEF] rounded-[25px] pl-[2.81vw] pt-[72px]"
+            class="w-[35.83vw] h-[597px] flex flex-col bg-[#FBFBEF] rounded-[25px] pl-[2.81vw] pt-[72px]"
           >
             <div>
               <p class="font-PretendBold text-[34px] text-[#431B06]">
@@ -250,17 +254,15 @@
                 신뢰할 수 있는 최신의 보안 시스템을<br />
                 적용하여 개인정보를 보호합니다
               </p>
-            </div>
-            <div class="mt-[50.23px] w-[524.57px] min-w-[524.57px]">
               <img
                 src="../assets/mainPageImage/main12.png"
-                class="object-none ml-auto"
+                class="w-[60%] min-[1500px]:object-none ml-auto"
               />
             </div>
           </div>
         </div>
         <div
-          class="w-full mt-[40px] min-w-[1420px] h-[495px] bg-[#F8F9FA] rounded-[25px] pl-[2.81vw] pt-[72px] flex flex-col items-center"
+          class="w-full mt-[40px] h-[495px] bg-[#F8F9FA] rounded-[25px] pl-[2.81vw] pt-[72px] flex flex-col items-center"
         >
           <p class="font-PretendBold text-[34px]">
             놀라운 수신율을 경험해 보세요
@@ -276,7 +278,7 @@
     </div>
   </div>
   <div
-    class="h-[1080px] mt-[225px] bg-black flex flex-col justify-center items-center text-center"
+    class="w-full h-[1080px] mt-[225px] bg-black flex flex-col justify-center items-center text-center"
   >
     <p
       class="w-[809.69px] bg-gradient-to-r from-[#B6B7F7] to-[#7FB2FE] text-[64px] font-PretendBold leading-[85px] text-transparent bg-clip-text"
