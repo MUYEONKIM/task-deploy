@@ -150,7 +150,9 @@
                 템플릿으로 메시지 내용을<br />저장하여 간편하게 전송하세요.
               </p>
             </div>
-            <img src="../assets/mainPageImage/main7.png" />
+            <div>
+              <img src="../assets/mainPageImage/main7.png" class="ml-auto" />
+            </div>
           </div>
           <div
             class="w-[44.54vw] min-[1500px]:w-[39.06vw] h-[597px] flex flex-col justify-between bg-[#E9EBFD] rounded-[25px] pl-[2.81vw] pt-[72px] mt-[3vh] min-[1500px]:0"
@@ -187,7 +189,9 @@
                 알려드립니다
               </p>
             </div>
-            <img src="../assets/mainPageImage/main9.png" />
+            <div>
+              <img src="../assets/mainPageImage/main9.png" class="ml-auto" />
+            </div>
           </div>
           <div
             class="mt-[3vh] min-[1500px]:0 w-[44.54vw] min-[1500px]:w-[27.08vw] h-[720px] flex flex-col justify-between bg-[#FAFAEE] rounded-[25px] pl-[2.81vw] pt-[72px]"
@@ -236,27 +240,29 @@
                 종류와 상관없이 모두 전송해 드립니다
               </p>
             </div>
-            <div class="mt-[45px] w-full flex flex-col items-center">
+            <br />
+            <div class="w-full flex justify-center">
               <img
                 src="../assets/mainPageImage/main11.png"
-                class="w-[70%] min-[1500px]:object-none"
+                class="min-[1500px]:object-none"
               />
             </div>
           </div>
           <div
             class="w-[35.83vw] h-[597px] flex flex-col bg-[#FBFBEF] rounded-[25px] pl-[2.81vw] pt-[72px]"
           >
+            <p class="font-PretendBold text-[34px] text-[#431B06]">
+              강력한 보안을 제공합니다.
+            </p>
+            <p class="font-PretendBold text-[#696156] text-[34px]">
+              신뢰할 수 있는 최신의 보안 시스템을<br />
+              적용하여 개인정보를 보호합니다
+            </p>
+            <br />
             <div>
-              <p class="font-PretendBold text-[34px] text-[#431B06]">
-                강력한 보안을 제공합니다.
-              </p>
-              <p class="font-PretendBold text-[#696156] text-[34px]">
-                신뢰할 수 있는 최신의 보안 시스템을<br />
-                적용하여 개인정보를 보호합니다
-              </p>
               <img
                 src="../assets/mainPageImage/main12.png"
-                class="w-[60%] min-[1500px]:object-none ml-auto"
+                class="min-[1500px]:object-none ml-auto"
               />
             </div>
           </div>
