@@ -1,10 +1,6 @@
 <template>
   <div class="h-auto font-PretendRegular">
-    <pageHeader
-      :color="headerColor"
-      :fontColor="fontColor"
-      class="relative z-50"
-    />
+    <pageHeader class="relative z-50" />
     <router-view></router-view>
     <pageFooter v-if="footerVisible" />
   </div>
@@ -25,12 +21,6 @@ export default {
     };
   },
   computed: {
-    headerColor() {
-      return this.$route.path === "/" ? "main" : "notMain";
-    },
-    fontColor() {
-      return this.$route.path === "/" ? "main" : "notMain";
-    },
     footerVisible() {
       return !this.hiddenPage.includes(this.$route.path);
     },

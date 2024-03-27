@@ -19,7 +19,10 @@ const routes = [
 // 라우터 생성
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior() {
+    return { top: 0 };
+  },
 });
 
 // 라우터 추출 (main.js에서 import)
