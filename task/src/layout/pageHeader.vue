@@ -1,9 +1,9 @@
 <template>
   <div
     :class="[
-      'flex items-center h-20 text-[20px] font-PretendSemiBold w-full bg-white text-black',
+      'flex items-center h-20 text-[20px] font-PretendSemiBold w-full text-black',
       {
-        'bg-gray-950 text-white': routePath === '/',
+        ' bg-black text-white': routePath === '/',
       },
     ]"
   >
